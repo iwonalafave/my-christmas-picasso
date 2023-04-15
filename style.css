@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #00989d;
+}
+.upper-box{
+    position: relative;
+    display: flex;
+    height: 30%;
+    background-color: #00989d;
+    
+}
+.upper-box div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border: white 0.7rem solid;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#figure-1{
+    position: absolute;
+    z-index: 2;
+    left: 400px;
+    bottom: 0px;
+    width:200px
+}
+#figure-2{
+    position: absolute;
+    bottom: 0px;
+    width:400px;
+    z-index: 2;
+}
+.triangle{
+    position: absolute;
+   
+   
+    border-style: solid;
+    border-width: 0 0 0 250px;
+    height: 0;
+    z-index: 1;
+}
+.triangle-small {
+    bottom: 200px;
+    right: 300px;
+    width: 0;
+    height: 0;
+    border-bottom: 600px solid green;
+    border-left: 250px solid transparent; 
+    border-right:250px solid transparent;
+    z-index: 2;
+}
+.triangle-big{
+    bottom: 0;
+    width: 0;
+    height: 0;
+    right: 250px;
+    border-bottom: 800px solid green;
+    border-left: 300px solid transparent; 
+    border-right:300px solid transparent;
+    z-index: 2;
+}
+.triangle-smallest{
+    bottom: 350px;
+    right: 350px;
+    width: 0;
+    height: 0;
+    border-bottom: 550px solid green;
+    border-left: 200px solid transparent; 
+    border-right:200px solid transparent;
+    z-index: 3;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle1{
+    background-color: #fe8888;
+    width: 50px;
+    height: 50px;
+    top: 300px;
+   right: 530px;
+    z-index: 4;
+}
+.circle2{
+    background-color: yellow;
+    top: 30px;
+    right: 500px;
+    z-index: 4;
+}
+.circle3{
+    background-color: #fe8888;
+    width: 70px;
+    height: 70px;
+    bottom: 400px;
+    right: 400px;
+    z-index: 4;
+}
+.circle4{
+    background-color: #fe8888;
+    width: 40px;
+    height: 40px;
+    bottom: 250px;
+    right: 600px;
+    z-index: 4;
+}
+.circle5{
+    background-color: #fe8888;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 450px;
+    z-index: 4;
+}
+#figure-1{
+    position: absolute;
+    z-index: 2;
+    left: 400px;
+    bottom: 0px;
+    width:200px
+}
+#figure-2{
+    position: absolute;
+    bottom: 0px;
+    width:400px;
+    z-index: 2;
+}
+
+
+        
+
