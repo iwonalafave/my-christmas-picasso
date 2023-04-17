@@ -5,7 +5,7 @@ body {
 .container {
     position: relative;
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
     height: 100vh;
     background-color: #00989d;
 }
@@ -14,7 +14,7 @@ body {
     display: flex;
     height: 30%;
     background-color: #00989d;
-    
+   
 }
 .upper-box div {
     flex-grow: 1;
@@ -27,6 +27,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 #figure-1{
     position: absolute;
     z-index: 2;
@@ -190,6 +191,19 @@ body {
     left: 200px;
     z-index: 1;
 }
+label {
+    position: absolute;
+    bottom: 25px;
+   right: 105px;
+    z-index: 2;
+}
+input[type = text]{
+    position: absolute;
+    bottom: 0px;
+   right: 10px;
+    z-index: 2;
+}
+
 
 
         
