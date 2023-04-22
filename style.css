@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-}
+
 .container {
     position: relative;
     display: flex;
@@ -204,7 +201,11 @@ input[type = text]{
     z-index: 2;
 }
 
+@media screen and (min-width: 600px){ 
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
-
-        
+}
 
